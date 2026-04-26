@@ -2854,6 +2854,14 @@ export function CompoundAnalysisPage({ data, onBack }: CompoundAnalysisPageProps
                 <Download className="h-4 w-4 mr-2" />
                 Export Full Report
               </Button>
+              <Button 
+                onClick={() => setShowNewDrugPredictionScreen(true)}
+                className="bg-gradient-to-r from-teal-500 to-emerald-600 hover:from-teal-600 hover:to-emerald-700 text-white"
+                size="lg"
+              >
+                <FlaskConical className="h-4 w-4 mr-2" />
+                New Drug Prediction
+              </Button>
             </div>
           </div>
         )}
