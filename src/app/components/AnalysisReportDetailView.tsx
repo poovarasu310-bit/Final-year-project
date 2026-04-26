@@ -81,6 +81,7 @@ export function AnalysisReportDetailView({ report, onBack }: AnalysisReportDetai
                   timestamp
                 }}
                 stepName="Overview Summary"
+                stepTitle="Analysis Report Overview"
               />
             </div>
           </div>
